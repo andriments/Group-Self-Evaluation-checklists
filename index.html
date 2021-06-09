@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group self evaluation checklist</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <div class="container">
+        <div class="tittle">
+            <h1>Group Self Evaluation Checklist</h1>
+         </div>
+        <form action="" id="myform">
+           <div class="form-group"><label for="Group Leader Name">Group Leader Name
+              <input type="text" name="GLname" id="GLname" placeholder="Group Leader Name" required>
+           </label>
+           </div>
+
+           <div class="form-group"><label for="Name">Name
+             <input type="text" name=Name" id="Name" placeholder="Name" required>
+           </label>
+           </div>
+
+           <div class="form-group"><label for="Course/Block">Course/Block
+             <input type="text" name="Course/Block" id="Cblock" placeholder="Course/Block" required>
+           </label>
+           </div>
+
+           <div class="form-group"><label for="Project title">Project title
+             <input type="text" name="Project title" id="Ptitle" placeholder="Project title" required>
+           </label>
+           </div>
+
+           <div class="form-group"><label for="Date">Date
+            <input type="date" name="date" id="date" placeholder="Date" required>
+            </label>
+           </div>
+
+           <div class="form-group">
+           <div class="questions">
+               <h6>Note: As a team, decide which answer best suits the way your team worked together.
+                    Then, complete the remaining sentences.</h6><br><br>
+
+              <p>1. We finished our task on time, and we did a good job!<br><br>
+                <select name="question1" id="question1">
+                    <option id="op1">Yes</option>
+                    <option id="op1">No</option>
+                </select><br><br>
+            </p>
+            <p>2. We encourage each other and we cooperated with each other.<br><br>
+                <select name="question2" id="question2">
+                    <option id="op2">Yes</option>
+                    <option id="op2">No</option>
+                </select><br><br>
+            </p>
+            <p>3. We each shared our ideas, then listened and valued each other’s ideas.<br><br>
+                <select name="question3" id="question3">
+                    <option id="op3">Yes</option>
+                    <option id="op3">No</option>
+                </select><br><br>
+            </p>
+
+
+            <p>4. We did best at</p>
+            <p><textarea name="question4" id="question4" placeholder="Write something.."></textarea></p>
+
+            <p>5. Next time we could improve at</p>
+            <p><textarea name="question5"id="question5"   placeholder="Write something.."></textarea></p>
+
+            <p>6. As part of the group, I learned </p>
+            <p><textarea name="question6"id="question6"   placeholder="Write something.."></textarea></p>
+
+            <p>7. By doing this project I can</p>
+            <p><textarea name="question7" id="question7"  placeholder="Write something.."></textarea></p>
+
+
+         </div>
+        </div>
+
+        <div class="form-group">
+            <button type="submit">Submit</button>
+           </div>
+
+        </form>
+         <br><br>
+        <h3>Information</h3>
+        <div id="output">
+           <!--Display output-->
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
